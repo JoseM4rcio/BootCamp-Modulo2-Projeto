@@ -12,9 +12,9 @@ body {
     background: rgb(29, 12, 32);
     background: linear-gradient(180deg, rgba(29, 12, 32, 1) 0%, rgba(101, 31, 113, 1) 100%);
     margin: auto;
-    width: 700px;
+    width: 44rem;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ header {
 
 .header-title {
     color: #FECD23;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
@@ -38,6 +38,35 @@ header {
 .header-subscrition {
     margin-bottom: 1rem;
 }
-span{
+
+span {
     font-weight: 600;
+}
+
+.form-register {
+    background: rgb(29, 12, 32);
+    background: linear-gradient(0deg, rgba(29, 12, 32, 1) 0%, rgba(101, 31, 113, 1) 100%);
+    margin: auto;
+    width: 39rem;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form-title{
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 28rem;
+    height: 1.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 1.2rem;
 }
