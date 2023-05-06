@@ -125,11 +125,16 @@ button {
     background-color: #1E0C21;
     border: none;
     border-radius: 0.3rem;
+    cursor: pointer;
     width: 5rem;
     padding: 0.7rem;
     color: #F5F5F5;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
+}
+
+button:hover {
+    background-color: #651F70;
 }
 
 footer {
