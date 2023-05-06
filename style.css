@@ -1,10 +1,43 @@
 /* Paleta de Cores */
-:root{
-    color: - #1E0C21
-    - #651F70
-    - #FECD23
-    - #2637DB
-    - #3C5BEE
-    - #73CEFF;
+:root {
+    color: - #1E0C21 - #651F70 - #FECD23 - #2637DB - #3C5BEE - #73CEFF - #F5F5F5;
 }
 
+body {
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: rgb(29, 12, 32);
+    background: linear-gradient(180deg, rgba(29, 12, 32, 1) 0%, rgba(101, 31, 113, 1) 100%);
+    margin: auto;
+    width: 700px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header {
+    color: #F5F5F5;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header-title {
+    color: #FECD23;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.header-subtitle {
+    margin-bottom: 1rem;
+}
+
+.header-subscrition {
+    margin-bottom: 1rem;
+}
+span{
+    font-weight: 600;
+}
